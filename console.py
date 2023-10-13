@@ -15,4 +15,6 @@ while controller:
     user_input = input(cmd)
     # Help and closing Decision
     if user_input == 'help':
-
+        print(message)
+    elif user_input == 'quit':
+        controller = 0
