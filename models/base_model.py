@@ -9,7 +9,7 @@ import models
 
 
 class BaseModel:
-    """The super class"""
+    """The Parent class"""
 
     def __init__(self, *args, **kwargs):
         """Initializing the base model"""
