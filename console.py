@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+import sys
 '''Running point for CMD loop'''
 
 
@@ -18,7 +19,7 @@ def main_runner():
         # Taking user input
         user_input = input(cmd).lower()
         # Help and closing Decision
-        if user_input == 'help':
+        if user_input == 'help' or sys.argv[0] == 'help':
             print(message)
         elif user_input == 'quit':
             controller = 0
