@@ -9,3 +9,5 @@
 - Webpage loading
 - CSS, selectors and how to style HTML elements
 - class attribute
+
+---
